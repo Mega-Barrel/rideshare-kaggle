@@ -1,7 +1,7 @@
 import csv
 import pymysql
 
-file_name = 'C:/Users/saura/Desktop/rideshare_kaggle/datasets/Cab_Type/Uber_cab.csv'
+file_name = 'C:/Users/saura/Desktop/rideshare_kaggle/datasets/main.csv'
 
 create_table = '''CREATE TABLE IF NOT EXISTS uber_cab(
     day INT
